@@ -1,0 +1,29 @@
+{
+  "name": "@bryopsida/relay-server",
+  "version": "0.1.0",
+  "description": "> TODO: description",
+  "author": "bryopsida <8363252+bryopsida@users.noreply.github.com>",
+  "homepage": "https://github.com/bryopsida/node-relay#readme",
+  "license": "MIT",
+  "main": "lib/relay-server.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryopsida/node-relay.git"
+  },
+  "scripts": {
+    "test": "node --test ./__tests__/*.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/bryopsida/node-relay/issues"
+  }
+}
